@@ -7,6 +7,7 @@ const clothesModel = require('./clothes/model');
 const foodModel = require('./food/model');
 const userModel = require('./users');
 const Collection = require('./data-collection');
+
 const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite:memory:' : process.env.DATABASE_URL || 'postgres://localhost:5432/auth01';
 const DATABASE_CONFIG = process.env.NODE_ENV === 'production' ? { 
   dialectOptions: { 
