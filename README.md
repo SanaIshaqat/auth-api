@@ -7,7 +7,7 @@ Author: Sana Ishaqat
 
 [back-end (heroku)](https://sana-auth-api-401.herokuapp.com)
 
-[PR Link]https://github.com/SanaIshaqat/auth-api/pull/1)
+[PR Link](https://github.com/SanaIshaqat/auth-api/pull/1)
 
 ### Setup
 .env requirements
